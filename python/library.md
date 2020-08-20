@@ -95,7 +95,23 @@ print(bisect_right(a,x))
 # 2
 # 4
 ```
+이를 활용하여 정렬된 리스트에서 값이 특정범위에 속하는 원소의 개수를 구할 수 있다.
+
+```python
+from bisect import bisect_left, bisect_right
+
+#값이 [left_value, right_value]인 
+a = [1, 2, 4, 4, 8]
+x = 4
+
+print(bisect_left(a,x))
+print(bisect_right(a,x))
+
+# 2
+# 4
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzA0MDEzOSwxNzEyOTk3Nzg2LC02NT
-E5MjA0NiwtNzYxMTIyODc1LDM3NTAwMzI3MV19
+eyJoaXN0b3J5IjpbMTUxMTcxMjk3NywtMTMzMDQwMTM5LDE3MT
+I5OTc3ODYsLTY1MTkyMDQ2LC03NjExMjI4NzUsMzc1MDAzMjcx
+XX0=
 -->
