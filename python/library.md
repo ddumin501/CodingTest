@@ -100,7 +100,7 @@ print(bisect_right(a,x))
 ```python
 from bisect import bisect_left, bisect_right
 
-#값이 [left_value, right_value]인 
+#값이 [left_value, right_value]인 데이터의 개수를 반환하는 함수
 a = [1, 2, 4, 4, 8]
 x = 4
 
@@ -111,7 +111,7 @@ print(bisect_right(a,x))
 # 4
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxMTcxMjk3NywtMTMzMDQwMTM5LDE3MT
-I5OTc3ODYsLTY1MTkyMDQ2LC03NjExMjI4NzUsMzc1MDAzMjcx
-XX0=
+eyJoaXN0b3J5IjpbLTE1MDExNjY3MDMsLTEzMzA0MDEzOSwxNz
+EyOTk3Nzg2LC02NTE5MjA0NiwtNzYxMTIyODc1LDM3NTAwMzI3
+MV19
 -->
