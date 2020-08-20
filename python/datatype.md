@@ -13,15 +13,15 @@ array = [[0]*m for _ in rang(n)]
 print(array)
 ```
 ### 리스트 관련 기타 메서드
-|함수명|기능|
-|----------------|-------------------------------|-----------------------------|
-|변수명.append()|삽입
-|변수명.sort()|정렬(오름차순) |
-|sort(reverse=True)|정렬(내림차순) |  
-|reverse()||
-|insert()||
-|count()||
-|remove()||
+||함수명|기능|
+|-------------|----------------|-------------------------------|-----------------------------|
+||변수명.append()|삽입
+||변수명.sort()|정렬(오름차순) |
+||변수명.sort(reverse=True)|정렬(내림차순) |  
+||변수명.reverse()|리스트 내 원소의 순서를 뒤집는다|
+||변수명.insert(삽입할 위치 인덱스, 삽입할 값)||
+||변수명.count()||
+||변수명.remove()||
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1MzIxMDE1MywtNTM0NTEzMzAxXX0=
+eyJoaXN0b3J5IjpbNzgxMjgzNTMzLC01MzQ1MTMzMDFdfQ==
 -->
