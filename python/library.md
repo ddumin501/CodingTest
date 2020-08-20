@@ -79,8 +79,12 @@ print(result)
 
 ## bisect
 이진 탐색을 쉽게 구현할 수 있도록 하는 라이브러리.
-정렬
+
+- bisect_left(a, x) :정렬된 순서를 유지하면서 리스트 a 에 데이터 x를 삽입할 가장 왼쪽 인덱스를 찾는 메서드
+-  bisect_right(a, x) :정렬된 순서를 유지하면서 리스트 a 에 데이터 x를 삽입할 가장 오른쪽 인덱스를 찾는 메서드
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1MzMyMDIzOCwtNjUxOTIwNDYsLTc2MT
+eyJoaXN0b3J5IjpbMTcxMjk5Nzc4NiwtNjUxOTIwNDYsLTc2MT
 EyMjg3NSwzNzUwMDMyNzFdfQ==
 -->
