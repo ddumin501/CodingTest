@@ -38,7 +38,8 @@ print(result)
 ```
 ## heapq
 우선순위 큐 기능을 구현하고자 할 때 사용.
-
+코딩테스트 환경에서는 heapq가 PriorityQueue 라이브러리보다
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2MTEyMjg3NSwzNzUwMDMyNzFdfQ==
+eyJoaXN0b3J5IjpbLTE1NjMxODQxNTMsLTc2MTEyMjg3NSwzNz
+UwMDMyNzFdfQ==
 -->
