@@ -28,15 +28,17 @@ print(result)
 ```
 
 그 외 중복을 허용하는 
-product
+**product**(중복순열)
 ```
-[('A', 'A'), ('A', 'B'), ('A', 'C'), ('B', 'A'), ('B', 'B'), ('B', 'C'), ('C', 'A', 'B'), ('C', 'B', 'A')]
+[('A', 'A'), ('A', 'B'), ('A', 'C'), ('B', 'A'), ('B', 'B'), ('B', 'C'), ('C', 'A'), ('C', 'B')('C', 'C')]
 ```
+**combinations_with_replacement** (중복조합) 이 있다.
 ```
-combinations_with_replacement 가 있다.
+[('A', 'A'), ('A', 'B'), ('A', 'C'), ('B', 'C')]
+```
 ### heapq
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NTQ0MTIyNTIsMzc1MDAzMjcxXX0=
+eyJoaXN0b3J5IjpbLTEzMjIyMzg1NzUsMzc1MDAzMjcxXX0=
 -->
