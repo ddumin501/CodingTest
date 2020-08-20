@@ -134,8 +134,9 @@ print(data)
 print(list(data)) # 리스트 자료형으로 변환
 ```
 - Counter
+등장횟수를 세는 기능
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM2NjM1MjUxLC0yNzkyODA5ODQsLTEzMz
+eyJoaXN0b3J5IjpbODIzNDM0NzYzLC0yNzkyODA5ODQsLTEzMz
 A0MDEzOSwxNzEyOTk3Nzg2LC02NTE5MjA0NiwtNzYxMTIyODc1
 LDM3NTAwMzI3MV19
 -->
