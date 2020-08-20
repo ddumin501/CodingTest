@@ -20,10 +20,13 @@ from itertools import combinations
 
 data = ['A', 'B', 'C'] #데이터 준비
 
-result = list(combinations(data,2))
+result = list(combinations(data,2)) #2개를 뽑는 모든 조합
 print(result)
+
+#출력
+#[('A', 'B'), ('A', 'C'), ('B', 'C')]
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4NzUxMjkyNF19
+eyJoaXN0b3J5IjpbMzc1MDAzMjcxXX0=
 -->
