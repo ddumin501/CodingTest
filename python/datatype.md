@@ -13,12 +13,14 @@ array = [[0]*m for _ in rang(n)]
 print(array)
 ```
 ### 리스트 관련 기타 메서드
-append()
-sort()
+|함수명|기능|
+|----------------|-------------------------------|-----------------------------|
+|append()|  삽입
+sort()   
 reverse()
 insert()
 count()
-rem
+remove()
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ1NDEyNjk4LC01MzQ1MTMzMDFdfQ==
+eyJoaXN0b3J5IjpbMTg4MDMwMzI2NSwtNTM0NTEzMzAxXX0=
 -->
