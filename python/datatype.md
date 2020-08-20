@@ -19,9 +19,9 @@ print(array)
 |sort()|변수명.sort()|정렬(오름차순)|
 |sort()|변수명.sort(reverse=True)|정렬(내림차순) |  
 |reverse()|변수명.reverse()|리스트 내 원소의 순서를 뒤집는다|
-|insert()|변수명.insert(삽입할 위치 인덱스, 삽입할 값)|
-|count()|변수명.count()|특정한 인덱스 위치에 삽입|
+|insert()|변수명.insert(삽입할 위치 인덱스, 삽입할 값)|특정한 인덱스 위치에 삽입
+|count()|변수명.count(특정 값)|특정한 값을 가지는 데이터 개수 세기|
 |remove()|변수명.remove(특정 값)|특정값을 갖는 원소 제거|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5MTkzMjU2OCwtNTM0NTEzMzAxXX0=
+eyJoaXN0b3J5IjpbLTg2MTQzNzIxOCwtNTM0NTEzMzAxXX0=
 -->
