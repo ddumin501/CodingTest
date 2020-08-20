@@ -119,8 +119,9 @@ print(count_by_range(a,-1,3))
 ```
 
 ## collections
+ㅇㄷ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3OTI4MDk4NCwtMTMzMDQwMTM5LDE3MT
-I5OTc3ODYsLTY1MTkyMDQ2LC03NjExMjI4NzUsMzc1MDAzMjcx
-XX0=
+eyJoaXN0b3J5IjpbMjA2MjI0OTIyMiwtMjc5MjgwOTg0LC0xMz
+MwNDAxMzksMTcxMjk5Nzc4NiwtNjUxOTIwNDYsLTc2MTEyMjg3
+NSwzNzUwMDMyNzFdfQ==
 -->
