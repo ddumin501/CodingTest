@@ -27,10 +27,16 @@ print(result)
 #[('A', 'B'), ('A', 'C'), ('B', 'C')]
 ```
 
-그 외 중복을 허용하는 pro
+그 외 중복을 허용하는 
+product
+```
+[('A', 'A'), ('A', 'B'), ('A', 'C'), ('B', 'A'), ('B', 'B'), ('B', 'C'), ('C', 'A', 'B'), ('C', 'B', 'A')]
+```
+```
+combinations_with_replacement 가 있다.
 ### heapq
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0MjQ5ODAxNSwzNzUwMDMyNzFdfQ==
+eyJoaXN0b3J5IjpbLTE2NTQ0MTIyNTIsMzc1MDAzMjcxXX0=
 -->
