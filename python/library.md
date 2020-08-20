@@ -135,8 +135,14 @@ print(list(data)) # 리스트 자료형으로 변환
 ```
 - Counter
 등장횟수를 세는 기능
+
+```python
+from collections import Counter
+
+counter = Counter(['red', 'blue', 'red', 'green', 'blue', 'blue']
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIzNDM0NzYzLC0yNzkyODA5ODQsLTEzMz
-A0MDEzOSwxNzEyOTk3Nzg2LC02NTE5MjA0NiwtNzYxMTIyODc1
-LDM3NTAwMzI3MV19
+eyJoaXN0b3J5IjpbNjg5OTcxNzI1LDgyMzQzNDc2MywtMjc5Mj
+gwOTg0LC0xMzMwNDAxMzksMTcxMjk5Nzc4NiwtNjUxOTIwNDYs
+LTc2MTEyMjg3NSwzNzUwMDMyNzFdfQ==
 -->
