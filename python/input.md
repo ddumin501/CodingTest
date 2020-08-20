@@ -17,8 +17,16 @@ print(data)
 
 ```python
 # n, m, k를 공백으로 구분하여 입력
-n, m, k = map(int, input().split))
+n, m, k = map(int, input().split())
+
+print(n, m, k)
+```
+입력이 많을 경우, input() 함수를 사용하면 동작 속도가 느려 시간 초과로 오답 판정 받을 수도있다.
+
+이를 해결하기위하여
+```python
+imp
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc5MzY1NzIzLC0xMjg2OTEyODE5XX0=
+eyJoaXN0b3J5IjpbMTUzNjM5MDE4MiwtMTI4NjkxMjgxOV19
 -->
