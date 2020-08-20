@@ -27,6 +27,10 @@ print(result)
 #[('A', 'B'), ('A', 'C'), ('B', 'C')]
 ```
 
+그 외 중복을 허용하는 pro
+### heapq
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzc1MDAzMjcxXX0=
+eyJoaXN0b3J5IjpbMTk0MjQ5ODAxNSwzNzUwMDMyNzFdfQ==
 -->
