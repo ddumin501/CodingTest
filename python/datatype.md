@@ -15,12 +15,13 @@ print(array)
 ### 리스트 관련 기타 메서드
 |함수명|기능|
 |----------------|-------------------------------|-----------------------------|
-|append()|  삽입
-sort()   
-reverse()
-insert()
-count()
-remove()
+|변수명.append()|삽입
+|변수명.sort()|정렬(오름차순) |
+|sort(reverse=True)|정렬(내림차순) |  
+|reverse()||
+|insert()||
+|count()||
+|remove()||
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4MDMwMzI2NSwtNTM0NTEzMzAxXX0=
+eyJoaXN0b3J5IjpbMTc1MzIxMDE1MywtNTM0NTEzMzAxXX0=
 -->
