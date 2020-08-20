@@ -23,9 +23,14 @@ print(array)
 |count()|변수명.count(특정 값)|특정한 값을 가지는 데이터 개수 세기|
 |remove()|변수명.remove(특정 값)|특정값을 갖는 원소 제거(하나만 제거됨)|
 
-remove할때, 특정값 가지는 모든 우너소
+remove할때, 특정값 가지는 모든 원소를 제거하는 방법
+```python
+a = [1, 2, 3, 4, 5, 5, 5]
+remove_set = [3, 5]
 
+result = [i for i in a if  
+```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODc4Mzg5MTEsLTUzNDUxMzMwMV19
+eyJoaXN0b3J5IjpbMTM5MDcwMzY3MywtNTM0NTEzMzAxXX0=
 -->
