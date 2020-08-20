@@ -121,10 +121,16 @@ print(count_by_range(a,-1,3))
 ## collections
 - deque
 일반적인 큐 자료구조를 구현할 때 사용
+```python
+from collections import deque
 
+data = deque([2, 3, 4])
+data.appendleft(1) # 첫번째 인덱스에 원소 x 삽입
+data.append(5) # 마지막 인덱스에 원소x
+```
 - Counter
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5MTE4NjkwOCwtMjc5MjgwOTg0LC0xMz
-MwNDAxMzksMTcxMjk5Nzc4NiwtNjUxOTIwNDYsLTc2MTEyMjg3
-NSwzNzUwMDMyNzFdfQ==
+eyJoaXN0b3J5IjpbLTE2MjQ0OTg1MDIsLTI3OTI4MDk4NCwtMT
+MzMDQwMTM5LDE3MTI5OTc3ODYsLTY1MTkyMDQ2LC03NjExMjI4
+NzUsMzc1MDAzMjcxXX0=
 -->
