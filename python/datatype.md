@@ -21,7 +21,11 @@ print(array)
 |reverse()|변수명.reverse()|리스트 내 원소의 순서를 뒤집는다|
 |insert()|변수명.insert(삽입할 위치 인덱스, 삽입할 값)|특정한 인덱스 위치에 삽입
 |count()|변수명.count(특정 값)|특정한 값을 가지는 데이터 개수 세기|
-|remove()|변수명.remove(특정 값)|특정값을 갖는 원소 제거|
+|remove()|변수명.remove(특정 값)|특정값을 갖는 원소 제거(하나만 제거됨)|
+
+remove할때, 특정값 가지는 모든 우너소
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2MTQzNzIxOCwtNTM0NTEzMzAxXX0=
+eyJoaXN0b3J5IjpbLTE4ODc4Mzg5MTEsLTUzNDUxMzMwMV19
 -->
