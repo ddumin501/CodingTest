@@ -76,7 +76,11 @@ def heapsort(iterable):
 result = heapsort([1,3,5,7,9,2,4,6,8,0])
 print(result)
 ```
+
+## bisect
+이진 탐색을 쉽게 구현할 수 있도록 하는 라이브러리.
+정렬
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1MTkyMDQ2LC03NjExMjI4NzUsMzc1MD
-AzMjcxXX0=
+eyJoaXN0b3J5IjpbMTY1MzMyMDIzOCwtNjUxOTIwNDYsLTc2MT
+EyMjg3NSwzNzUwMDMyNzFdfQ==
 -->
