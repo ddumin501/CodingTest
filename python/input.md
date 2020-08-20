@@ -9,9 +9,16 @@
 # 데이터의 개수 입력
 n = int(input())
 # 각 데이터를 공백으로 구분하여 입력
-data = list(map(int,inp
+data = list(map(int,input().split()))
+
+data.sort(reverse = True)
+print(data)
+```
+
+```python
+# n, m, k를 공백으로 구분하여 입력
+n, m, k = map(int, input().split))
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Mjc5NzY3MDYsLTEyODY5MTI4MTldfQ
-==
+eyJoaXN0b3J5IjpbMjc5MzY1NzIzLC0xMjg2OTEyODE5XX0=
 -->
