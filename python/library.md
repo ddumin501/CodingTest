@@ -141,10 +141,12 @@ from collections import Counter
 
 counter = Counter(['red', 'blue', 'red', 'green', 'blue', 'blue'])
 
-print
+print(counter['blue'])
+print(counter['blue'])
+print(dict(counter))
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjkwOTU2MDMsODIzNDM0NzYzLC0yNz
-kyODA5ODQsLTEzMzA0MDEzOSwxNzEyOTk3Nzg2LC02NTE5MjA0
-NiwtNzYxMTIyODc1LDM3NTAwMzI3MV19
+eyJoaXN0b3J5IjpbNDIyODAxODgxLDgyMzQzNDc2MywtMjc5Mj
+gwOTg0LC0xMzMwNDAxMzksMTcxMjk5Nzc4NiwtNjUxOTIwNDYs
+LTc2MTEyMjg3NSwzNzUwMDMyNzFdfQ==
 -->
