@@ -16,12 +16,12 @@ print(array)
 |함수명|사용법|기능|
 |----------------|----------------|-------------------------------|-----------------------------|
 |append()|변수명.append()|삽입
-|sort()|변수명.sort()|정렬(오름차순) |
-|sort()||변수명.sort(reverse=True)|정렬(내림차순) ||  
+|sort()|변수명.sort()|정렬(오름차순)|
+|sort()|변수명.sort(reverse=True)|정렬(내림차순) ||  
 ||변수명.reverse()|리스트 내 원소의 순서를 뒤집는다|
 ||변수명.insert(삽입할 위치 인덱스, 삽입할 값)||
 ||변수명.count()||
 ||변수명.remove()||
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDQ4MzA4ODEsLTUzNDUxMzMwMV19
+eyJoaXN0b3J5IjpbMTI2NDk0NTcyOSwtNTM0NTEzMzAxXX0=
 -->
