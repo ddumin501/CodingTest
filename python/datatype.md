@@ -17,11 +17,11 @@ print(array)
 |----------------|----------------|-------------------------------|-----------------------------|
 |append()|변수명.append()|삽입
 |sort()|변수명.sort()|정렬(오름차순)|
-|sort()|변수명.sort(reverse=True)|정렬(내림차순) ||  
-||변수명.reverse()|리스트 내 원소의 순서를 뒤집는다|
-||변수명.insert(삽입할 위치 인덱스, 삽입할 값)||
-||변수명.count()||
-||변수명.remove()||
+|sort()|변수명.sort(reverse=True)|정렬(내림차순) |  
+|reverse()|변수명.reverse()|리스트 내 원소의 순서를 뒤집는다|
+|insert()|변수명.insert(삽입할 위치 인덱스, 삽입할 값)|
+|count()|변수명.count()|특정한 인덱스 위치에 삽입|
+|remove()|변수명.remove(특정 값)|특정값을 갖는 원소 제거|
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2NDk0NTcyOSwtNTM0NTEzMzAxXX0=
+eyJoaXN0b3J5IjpbMjA5MTkzMjU2OCwtNTM0NTEzMzAxXX0=
 -->
