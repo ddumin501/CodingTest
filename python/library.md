@@ -38,8 +38,27 @@ print(result)
 ```
 ## heapq
 우선순위 큐 기능을 구현하고자 할 때 사용.
-코딩테스트 환경에서는 heapq가 PriorityQueue 라이브러리보다
+코딩테스트 환경에서는 보통 heapq가 PriorityQueue 라이브러리보다 더 빠르게 동작한다.
+파이썬의 힙은 최소 힙(Min Heap)으로 구성되어 있다.
+```python
+#Min Heap
+import heapq
+
+def heapsort(iterable):
+    h = []
+    result = []
+    # 모든 원소를 차례대로 힙에 삽입
+    for value in iterable:
+        heapq.heappush(h, -value)
+    # 힙에 삽입된 모든 원소를 차례대로 꺼내어 담기
+    for i in range(len(h)):
+        result.append(-heapq.heappop(h))
+    return result
+
+result = heapsort([1,3,5,7,9,2,4,6,8,0])
+print(result)
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjMxODQxNTMsLTc2MTEyMjg3NSwzNz
-UwMDMyNzFdfQ==
+eyJoaXN0b3J5IjpbMTI1OTQ5NjI3OCwtNzYxMTIyODc1LDM3NT
+AwMzI3MV19
 -->
