@@ -28,9 +28,10 @@ remove할때, 특정값 가지는 모든 원소를 제거하는 방법
 a = [1, 2, 3, 4, 5, 5, 5]
 remove_set = [3, 5]
 
-result = [i for i in a if  
+result = [i for i in a if i not in remove_set] 
+print(result)
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MDcwMzY3MywtNTM0NTEzMzAxXX0=
+eyJoaXN0b3J5IjpbLTEzOTY4Nzk1NTksLTUzNDUxMzMwMV19
 -->
