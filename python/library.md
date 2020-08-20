@@ -140,9 +140,11 @@ print(list(data)) # 리스트 자료형으로 변환
 from collections import Counter
 
 counter = Counter(['red', 'blue', 'red', 'green', 'blue', 'blue'])
+
+print
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNTU0NDU4OCw4MjM0MzQ3NjMsLTI3OT
-I4MDk4NCwtMTMzMDQwMTM5LDE3MTI5OTc3ODYsLTY1MTkyMDQ2
-LC03NjExMjI4NzUsMzc1MDAzMjcxXX0=
+eyJoaXN0b3J5IjpbLTEyMjkwOTU2MDMsODIzNDM0NzYzLC0yNz
+kyODA5ODQsLTEzMzA0MDEzOSwxNzEyOTk3Nzg2LC02NTE5MjA0
+NiwtNzYxMTIyODc1LDM3NTAwMzI3MV19
 -->
