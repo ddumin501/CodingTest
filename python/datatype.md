@@ -12,7 +12,13 @@ m = 3
 array = [[0]*m for _ in rang(n)]
 print(array)
 ```
-
+### 리스트 관련 기타 메서드
+append()
+sort()
+reverse()
+insert()
+count()
+rem
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDUyOTYyNTIsLTUzNDUxMzMwMV19
+eyJoaXN0b3J5IjpbNzQ1NDEyNjk4LC01MzQ1MTMzMDFdfQ==
 -->
