@@ -119,9 +119,12 @@ print(count_by_range(a,-1,3))
 ```
 
 ## collections
-ㅇㄷ
+- deque
+일반적인 큐 자료구조를 구현할 때 사용
+
+- Counter
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2MjI0OTIyMiwtMjc5MjgwOTg0LC0xMz
+eyJoaXN0b3J5IjpbLTI5MTE4NjkwOCwtMjc5MjgwOTg0LC0xMz
 MwNDAxMzksMTcxMjk5Nzc4NiwtNjUxOTIwNDYsLTc2MTEyMjg3
 NSwzNzUwMDMyNzFdfQ==
 -->
