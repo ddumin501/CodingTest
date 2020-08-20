@@ -8,19 +8,22 @@ from itertools import permutations
 
 data = ['A', 'B', 'C'] #데이터 준비
 
-result = list(permutation(data,3))
+result = list(permutations(data,3)) #모든 순열 구하기
 print(result)
+
+#출력 
+#[('A', 'B', 'C'), ('A', 'C', 'B'), ('B', 'A', 'C'), ('B', 'C', 'A'), ('C', 'A', 'B'), ('C', 'B', 'A')]
 ```
 
 ```python
-from itertools import permutations
+from itertools import combinations
 
 data = ['A', 'B', 'C'] #데이터 준비
 
-result = list(permutation(data,3))
+result = list(combinations(data,2))
 print(result)
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjk4NjM1NzVdfQ==
+eyJoaXN0b3J5IjpbMTg4NzUxMjkyNF19
 -->
