@@ -6,9 +6,21 @@
 ```python
 from itertools import permutations
 
-data = [
+data = ['A', 'B', 'C'] #데이터 준비
+
+result = list(permutation(data,3))
+print(result)
+```
+
+```python
+from itertools import permutations
+
+data = ['A', 'B', 'C'] #데이터 준비
+
+result = list(permutation(data,3))
+print(result)
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5NTQ2NjQ3OF19
+eyJoaXN0b3J5IjpbNjk4NjM1NzVdfQ==
 -->
