@@ -126,11 +126,16 @@ from collections import deque
 
 data = deque([2, 3, 4])
 data.appendleft(1) # 첫번째 인덱스에 원소 x 삽입
-data.append(5) # 마지막 인덱스에 원소x
+data.append(5) # 마지막 인덱스에 원소 x 삽입
+
+print(data)
+data.popleft() # 첫번째 원소 삭제
+print(data)
+print(list(data)) # 리스트 자료형으로 변환
 ```
 - Counter
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjQ0OTg1MDIsLTI3OTI4MDk4NCwtMT
-MzMDQwMTM5LDE3MTI5OTc3ODYsLTY1MTkyMDQ2LC03NjExMjI4
-NzUsMzc1MDAzMjcxXX0=
+eyJoaXN0b3J5IjpbNTM2NjM1MjUxLC0yNzkyODA5ODQsLTEzMz
+A0MDEzOSwxNzEyOTk3Nzg2LC02NTE5MjA0NiwtNzYxMTIyODc1
+LDM3NTAwMzI3MV19
 -->
