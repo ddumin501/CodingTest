@@ -142,11 +142,16 @@ from collections import Counter
 counter = Counter(['red', 'blue', 'red', 'green', 'blue', 'blue'])
 
 print(counter['blue'])
-print(counter['blue'])
-print(dict(counter))
+print(counter['green'])
+print(dict(counter)) #사전자료형으로 변환
+==========================
+3
+1
+{'red': 2, 'blue': 3, 'green': 1}
 ```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIyODAxODgxLDgyMzQzNDc2MywtMjc5Mj
+eyJoaXN0b3J5IjpbNjg3MjcyNTk2LDgyMzQzNDc2MywtMjc5Mj
 gwOTg0LC0xMzMwNDAxMzksMTcxMjk5Nzc4NiwtNjUxOTIwNDYs
 LTc2MTEyMjg3NSwzNzUwMDMyNzFdfQ==
 -->
