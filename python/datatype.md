@@ -14,7 +14,7 @@ print(array)
 ```
 ### 리스트 관련 기타 메서드
 |함수명|사용법|기능|
-|----------------|----------------|-------------------------------|-----------------------------|
+|----------------|----------------|-------------------------------|
 |append()|변수명.append()|삽입
 |sort()|변수명.sort()|정렬(오름차순)|
 |sort()|변수명.sort(reverse=True)|정렬(내림차순) |  
@@ -33,5 +33,6 @@ print(result)
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTY4Nzk1NTksLTUzNDUxMzMwMV19
+eyJoaXN0b3J5IjpbLTExMDM2ODE3ODQsLTEzOTY4Nzk1NTksLT
+UzNDUxMzMwMV19
 -->
