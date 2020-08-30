@@ -9,7 +9,7 @@ print(array)
 # N X M 크기의 2차원 리스트 초기화
 n = 3
 m = 3
-array = [[0]*m for _ in rang(n)]
+array = [[0]*m for _ in range(n)]
 print(array)
 ```
 ### 리스트 관련 기타 메서드
